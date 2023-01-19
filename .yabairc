@@ -58,7 +58,29 @@ yabai -m rule --add app="^qBittorrent$" manage=off
 # yabai -m rule --add app="^Windows 11$" manage=off
 yabai -m rule --add app="^\"Windows 11\" Configuration$" manage=off
 yabai -m rule --add app="^About This Mac" manage=off
-
+yabai -m rule --add app="Anki" title="Profiles" manage=off
+yabai -m rule --add app="Anki" title="^Edit" manage=off
+# yabai -m rule --add app="Anki" title="^Browse" manage=off
+yabai -m rule --add app="Nova" title="Launcher" manage=off
+yabai -m rule --add app="Nova" title="Settings" manage=off
+yabai -m rule --add app="Nova" title="Extension Library" manage=off
+yabai -m rule --add app="Arc" title="Account" manage=off
+yabai -m rule --add app="Arc" title="General" manage=off
+yabai -m rule --add app="Arc" title="Shortcuts" manage=off
+yabai -m rule --add app="Arc" title="Little Arc" manage=off
+yabai -m rule --add app="Arc" title="Previews" manage=off
+yabai -m rule --add app="Arc" title="Updates" manage=off
+yabai -m rule --add app="Arc" title="Archive" manage=off
+yabai -m rule --add app="Arc" title="Site Settings" manage=off
+yabai -m rule --add app="Arc" title="Advanced" manage=off
+yabai -m rule --add app="Xnapper" manage=off
+yabai -m rule --add app="Xnapper" title="^Xnapper" manage=off
+yabai -m rule --add app="Mullvad" manage=off
+yabai -m rule --add app="IINA" manage=off
+yabai -m rule --add app="CleanShot X" manage=off
+yabai -m rule --add app="CleanShot X" title="^CleanShot X" manage=off
+yabai -m rule --add app="CleanShot X" title="^" manage=off
+yabai -m rule --add app="f.lux" manage=off
 
 echo "yabai configuration loaded.."
 
